@@ -1,0 +1,26 @@
+.button{
+  width: 100%;
+  padding: .9rem;
+  background-image: linear-gradient(to right bottom, rgba($color-grey-dark-2, 1), rgba($color-grey-dark-2, 0.8));
+  color:$color-white;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: .5rem;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: .5s all;
+
+  &:hover{
+    transform: scale(1.05);
+    background-image: linear-gradient(to right bottom, rgba($color-theme-1, 1), rgba($color-theme-1, 0.7));
+  }
+  &-20{
+    width: 20% !important;
+  }
+  &-remove{
+    width: 40%;
+    padding: .3rem;
+    background-image: linear-gradient(to right bottom, rgba($color-red-1, 1), rgba($color-red-1, 0.8));
+  }
+}

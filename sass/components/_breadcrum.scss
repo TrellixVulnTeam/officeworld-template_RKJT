@@ -1,0 +1,24 @@
+.breadcrum{
+  padding: 0 0 2rem 0;
+  &__text{
+
+    &:link,
+    &:visited{
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: $color-grey-light-2;
+      text-decoration: none;
+
+      &:hover{
+        color: $color-theme-1
+      }
+    }
+  }
+
+  &__arrow{
+    padding: 0 1rem 0 1rem;
+    font-size: 1.1rem;
+    color: $color-grey-dark;
+
+  }
+}

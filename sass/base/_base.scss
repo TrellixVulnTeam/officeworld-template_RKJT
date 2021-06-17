@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%; // 10px, this defines 1rem. 10px/16px = 62.5%
+}
+
+body{
+  box-sizing: border-box;
+  background-color: $color-white;
+}
+
+
+b{
+  color: $color-grey-dark-2;
+}
+ul{
+  list-style: none;
+}
